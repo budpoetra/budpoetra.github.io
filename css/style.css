@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../resource/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    background-attachment: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: rgba(81, 196, 211, 0.25);
+    color: white;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 35px;
+    border-radius: 10px;
+    transition: ease-in 200ms;
+}
+
+nav ul li:hover {
+    transform: scale(1.15);
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+main {
+    animation: upFade 1500ms forwards;
+    height: 620px;
+    text-align: center;
+    opacity: 0;
+}
+
+main h1 {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+}
