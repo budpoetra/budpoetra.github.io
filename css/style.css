@@ -1,5 +1,8 @@
 /* My CSS */
 .jumbotron {
-  padding-top: 2rem;
   background-color: #e2edff;
+}
+
+.pt-10 {
+  padding-top: 10rem;
 }
