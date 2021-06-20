@@ -10,3 +10,30 @@
 footer .container i {
   margin-right: 1rem;
 }
+
+#home img {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+#home p {
+  margin-bottom: 0rem;
+}
+
+#home svg {
+  margin-top: -5rem;
+}
+
+#about {
+  margin-top: -12rem;
+}
+
+@media (max-width: 1000px) {
+  #home svg {
+    margin-top: 0rem;
+  }
+
+  #about {
+    margin-top: 0rem;
+  }
+}
