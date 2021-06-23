@@ -26,6 +26,11 @@ footer .container i {
 
 #about {
   margin-top: -12rem;
+  margin-bottom: -2.5rem;
+}
+
+#portfolio {
+  margin-bottom: -10rem;
 }
 
 @media (max-width: 1000px) {
@@ -35,5 +40,10 @@ footer .container i {
 
   #about {
     margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  #portfolio {
+    margin-bottom: -5rem;
   }
 }
