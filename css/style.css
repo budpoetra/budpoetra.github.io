@@ -1,10 +1,31 @@
 /* My CSS */
+/* Palatte Color : https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff */
+body {
+  background-color: #232a3b;
+}
+
+body .bg-nav {
+  background-color: #0b151f;
+}
+
+.bg-cards {
+  background-color: #000000;
+}
+
+.jumbotron-home {
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../resource/keyboardUnsplash.jpg);
+}
+
 .jumbotron {
-  background-color: #e2edff;
+  background-color: #14213d;
 }
 
 .myPad {
   padding-top: 6rem;
+  color: white;
 }
 
 footer .container i {
@@ -12,28 +33,44 @@ footer .container i {
 }
 
 #home img {
+  margin-top: 10rem;
+  margin-bottom: -5rem;
+}
+
+#home h1 {
   margin-top: 5rem;
-  margin-bottom: 0rem;
 }
 
 #home p {
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
 }
 
 #home svg {
   margin-top: -5rem;
 }
 
+#about p {
+  margin-bottom: 9rem;
+}
+
 #about {
-  margin-top: -12rem;
-  margin-bottom: -2.5rem;
+  margin-top: -11rem;
 }
 
 #portfolio {
-  margin-bottom: -10rem;
+  margin-top: -6rem;
+  margin-bottom: -5rem;
+}
+
+#contact .container {
+  margin-bottom: -8rem;
 }
 
 @media (max-width: 1000px) {
+  .jumbotron-home {
+    background-size: 150%;
+  }
+
   #home svg {
     margin-top: 0rem;
   }
@@ -45,5 +82,12 @@ footer .container i {
 
   #portfolio {
     margin-bottom: -5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .jumbotron-home {
+    background-size: 300%;
+    background-position: center;
   }
 }

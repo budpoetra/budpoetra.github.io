@@ -17,7 +17,7 @@
 
   <body>
     <!-- Navigasi Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow p-3 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav shadow p-3 fixed-top font-monospace">
       <div class="container">
         <a class="navbar-brand" href="#">Budi Sahputra</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,17 +36,19 @@
     <!-- End Navigasi Bar -->
 
     <!-- Home -->
-    <section class="jumbotron text-center" id="home">
+    <section class="jumbotron-home text-center font-monospace" id="home">
+      <!-- Photo by <a href="https://unsplash.com/@amjiths?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amjith S</a> on <a href="https://unsplash.com/s/photos/keybord?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
       <img src="resource/myPhoto.png" alt="My Poto" width="250" class="img-fluid" />
-      <h1 class="display-4">Budi Sahputra</h1>
-      <p class="lead">College Student | IT Support | Programmer</p>
+      <h1 class="display-4 text-white">Budi Sahputra</h1>
+      <p class="lead text-white fst-italic">College Student | IT Support | Programmer</p>
 
       <!-- Website Untuk Gelombang: https://getwaves.io/ -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          fill="#232a3b"
           fill-opacity="1"
-          d="M0,0L48,37.3C96,75,192,149,288,165.3C384,181,480,139,576,122.7C672,107,768,117,864,144C960,171,1056,213,1152,218.7C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,0L40,48C80,96,160,192,240,202.7C320,213,400,139,480,138.7C560,139,640,213,720,208C800,203,880,117,960,85.3C1040,53,1120,75,1200,90.7C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
       </svg>
       <!-- End Gelombang -->
@@ -56,7 +58,7 @@
     <!-- About -->
     <section id="about" class="myPad">
       <div class="container">
-        <h2 class="mb-4 text-center">About Me</h2>
+        <h2 class="mb-4 text-center font-monospace">About Me</h2>
         <div class="row justify-content-center fs-6 text-center">
           <div class="col-md-5 mb-2">
             <p>
@@ -75,9 +77,9 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#14213d"
           fill-opacity="1"
-          d="M0,192L48,165.3C96,139,192,85,288,101.3C384,117,480,203,576,213.3C672,224,768,160,864,149.3C960,139,1056,181,1152,192C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,128L40,117.3C80,107,160,85,240,112C320,139,400,213,480,224C560,235,640,181,720,181.3C800,181,880,235,960,224C1040,213,1120,139,1200,101.3C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -86,10 +88,10 @@
     <!-- Portfolio -->
     <section id="portfolio" class="jumbotron myPad">
       <div class="container">
-        <h2 class="mb-4 text-center">Portfolio</h2>
+        <h2 class="mb-4 text-center font-monospace">Portfolio</h2>
         <div class="row justify-content-evenly">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-cards">
               <img src="resource/WebTraining.jpg" class="card-img-top p-1" alt="Training Web Pemrograman" />
               <div class="card-body">
                 <p class="card-text">
@@ -100,7 +102,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-cards">
               <img src="resource/PemrogJS.jpg" class="card-img-top p-1" alt="Belajar Dasar Pemrograman Javascript" />
               <div class="card-body">
                 <p class="card-text">
@@ -111,7 +113,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-cards">
               <img src="resource/ECS.jpg" class="card-img-top p-1" alt="Webinar Elastic Compute Service" />
               <div class="card-body">
                 <p class="card-text">
@@ -122,7 +124,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-cards">
               <img src="resource/Magang.jpg" class="card-img-top p-1" alt="Magang SMK Se-Aceh Jurusan TKJ" />
               <div class="card-body">
                 <p class="card-text">
@@ -133,7 +135,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-cards">
               <img src="resource/LKS.jpg" class="card-img-top p-1" alt="LKS IT Networking Support" />
               <div class="card-body">
                 <p class="card-text">
@@ -147,16 +149,16 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fff"
+          fill="#232a3b"
           fill-opacity="1"
-          d="M0,320L48,293.3C96,267,192,213,288,202.7C384,192,480,224,576,208C672,192,768,128,864,112C960,96,1056,128,1152,128C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,288L40,261.3C80,235,160,181,240,181.3C320,181,400,235,480,245.3C560,256,640,224,720,176C800,128,880,64,960,80C1040,96,1120,192,1200,224C1280,256,1360,224,1400,208L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
       </svg>
     </section>
     <!-- End Portfolio -->
 
     <!-- Contact -->
-    <section id="contact" class="myPad">
+    <section id="contact" class="myPad font-monospace">
       <div class="container">
         <h2 class="mb-3 text-center">Contact Me</h2>
         <div class="row justify-content-center">
@@ -181,16 +183,16 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#0b151f"
           fill-opacity="1"
-          d="M0,160L34.3,186.7C68.6,213,137,267,206,288C274.3,309,343,299,411,245.3C480,192,549,96,617,101.3C685.7,107,754,213,823,256C891.4,299,960,277,1029,240C1097.1,203,1166,149,1234,154.7C1302.9,160,1371,224,1406,256L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          d="M0,288L40,288C80,288,160,288,240,261.3C320,235,400,181,480,181.3C560,181,640,235,720,250.7C800,267,880,245,960,240C1040,235,1120,245,1200,224C1280,203,1360,149,1400,122.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
       </svg>
     </section>
     <!-- End Contact -->
 
     <!-- Footer -->
-    <footer class="jumbotron text-center bg-primary text-white pb-3">
+    <footer class="jumbotron text-center bg-nav text-white pb-3">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <b>Budi Sahputra</b></p>
       <div class="container">
         <a href="https://web.facebook.com/budi.sahputra.332?_rdc=1&_rdr" target="blank"><i class="bi bi-facebook text-white"></i></a>
