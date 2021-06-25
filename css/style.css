@@ -8,14 +8,22 @@ body .bg-nav {
   background-color: #0b151f;
 }
 
-.bg-cards {
-  background-color: #000000;
+.btn-color {
+  color: #fff;
+  background-color: #0b151f;
+  border-color: white;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.btn-color:hover {
+  transform: scale(1.5);
 }
 
 .jumbotron-home {
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url(../resource/keyboardUnsplash.jpg);
 }
 
@@ -26,10 +34,6 @@ body .bg-nav {
 .myPad {
   padding-top: 6rem;
   color: white;
-}
-
-footer .container i {
-  margin-right: 1rem;
 }
 
 #home img {
@@ -62,8 +66,16 @@ footer .container i {
   margin-bottom: -5rem;
 }
 
+.bg-cards {
+  background-color: #000000;
+}
+
 #contact .container {
   margin-bottom: -8rem;
+}
+
+footer .container i {
+  margin-right: 1rem;
 }
 
 @media (max-width: 1000px) {
@@ -72,22 +84,30 @@ footer .container i {
   }
 
   #home svg {
-    margin-top: 0rem;
+    margin-top: -1rem;
   }
 
   #about {
-    margin-top: 0rem;
+    margin-top: -3rem;
     margin-bottom: 0rem;
   }
 
+  #about p {
+    margin-bottom: 2rem;
+  }
+
   #portfolio {
+    margin-top: 0rem;
     margin-bottom: -5rem;
+  }
+
+  #contact .container {
+    margin-bottom: 0rem;
   }
 }
 
 @media (max-width: 650px) {
   .jumbotron-home {
     background-size: 300%;
-    background-position: center;
   }
 }
