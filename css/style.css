@@ -12,11 +12,12 @@ body .bg-nav {
   color: #fff;
   background-color: #0b151f;
   border-color: white;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: 250ms ease-in-out;
 }
 
 .btn-color:hover {
-  transform: scale(1.5);
+  color: #fff;
+  transform: scale(1.1);
 }
 
 .jumbotron-home {
@@ -70,8 +71,9 @@ body .bg-nav {
   background-color: #000000;
 }
 
-#contact .container {
-  margin-bottom: -8rem;
+form input,
+textarea {
+  opacity: 0.75;
 }
 
 footer .container i {
@@ -100,14 +102,16 @@ footer .container i {
     margin-top: 0rem;
     margin-bottom: -5rem;
   }
-
-  #contact .container {
-    margin-bottom: 0rem;
-  }
 }
 
 @media (max-width: 650px) {
   .jumbotron-home {
     background-size: 300%;
+  }
+}
+
+@media (max-width: 450px) {
+  .jumbotron-home p {
+    font-size: 0.75rem;
   }
 }
